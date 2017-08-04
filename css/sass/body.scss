@@ -1,0 +1,129 @@
+
+$nvy : #2c3e50;
+$red : #c0392b;
+$red-light: #e74c3c;
+$grey: #bdc3c7;
+$center: 0 auto;
+
+*{
+	box-sizing: border-box;
+}
+
+body{	
+	background-color: #2980b9;
+	height: 100vh;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+	margin-top: 15%;
+}
+
+
+.calbox{
+	border: 1px solid white;
+	padding: 10px;
+	width: 40%;
+	margin: $center;
+	border-radius: 4%;
+}
+
+.calbox:hover{
+	box-shadow:   1px 1px 2px $nvy;
+	transition-duration: .4s;
+	transition-timing-function: ease-in-out;
+}
+
+.pantalla{
+	height: 100px;
+	border: 1px solid white;
+	width: 70%;
+	margin: $center;
+	color: white;
+	border-radius: 4%;
+	padding: 20px;
+}
+
+
+.tecla{
+	border: 1px solid white;
+	width: 50px;
+	height: 50px;
+	margin: 20px;
+	font-size: 24px;
+	line-height: 50px;
+	cursor: pointer;
+	display: inline-block;
+	border-radius: 2%;
+	box-shadow: 1px 1px 1px $nvy;
+}
+
+.tecla:hover{
+	background-color: #3498db;
+	transition: .3s;
+	border: 1px solid #3498db;
+
+}
+
+.tecla:active{
+	background-color: #95a5a6;
+	box-shadow: none;
+	}
+
+h2{
+	margin-bottom: 1em;
+	margin-bottom: .5em;
+	color: white;
+	font-size: 50px;
+}
+
+
+.tecla:active{
+	box-shadow: none;
+}
+
+.text-pantalla{
+	color: white;
+	font-size: 36px;
+	text-align: right;
+
+}
+
+
+.grid-on{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+  	grid-template-rows: auto;
+  	grid-template-areas: 
+  		"one one one one"
+  		"two two two two"
+  		"three three three three"
+  		"four four four five"
+  		"six six seven five"
+
+}
+
+
+
+#zero{
+	width: 40%;
+
+}
+.four{
+	width: 370px;
+	text-align:left;
+	margin: 0 auto;
+}
+
+.four .tecla{
+	text-align: center;
+}
+
+#equal{
+	position: absolute;
+	height: 140px;
+	margin-top: -160px;
+	margin-left: 120px;
+	
+}
