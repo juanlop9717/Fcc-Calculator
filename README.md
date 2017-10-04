@@ -12,7 +12,7 @@ Make the basics operations (add, substract, multiply & divide)
 For installing the project in your environment you must have Node and NPM installed  
 
 * - Clone the repository
-* -`npm install` on your terminal
+* - `npm install` on your terminal
 * - Ready to develop!
 
 
